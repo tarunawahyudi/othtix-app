@@ -14,7 +14,7 @@ import 'package:intl/intl.dart';
 class NearbyEventsCarousel extends StatelessWidget {
   NearbyEventsCarousel({super.key});
 
-  final CarouselController _carouselController = CarouselController();
+  final CarouselSliderController _carouselController = CarouselSliderController();
 
   @override
   Widget build(BuildContext context) {

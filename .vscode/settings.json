@@ -15,5 +15,7 @@
     "linux": true,
     "macos": true,
   },
-  "bloc.newBlocTemplate.type": "freezed"
+  "bloc.newBlocTemplate.type": "freezed",
+  "IDX.aI.enableInlineCompletion": true,
+  "IDX.aI.enableCodebaseIndexing": true
 }

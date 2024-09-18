@@ -1,4 +1,4 @@
-package com.example.backtix_app
+package com.othix.app
 
 import io.flutter.embedding.android.FlutterActivity
 

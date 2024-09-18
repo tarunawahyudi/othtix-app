@@ -13,7 +13,7 @@ import 'package:intl/intl.dart';
 class UpcomingEventsCarousel extends StatelessWidget {
   UpcomingEventsCarousel({super.key});
 
-  final CarouselController _carouselController = CarouselController();
+  final CarouselSliderController _carouselController = CarouselSliderController();
 
   @override
   Widget build(BuildContext context) {
