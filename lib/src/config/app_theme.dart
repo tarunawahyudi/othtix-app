@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color seedColor = Colors.lightBlueAccent;
+  static const Color seedColor = const Color(0xFFFF8144);
   static const String fontFamily = 'Poppins';
 
   final ThemeData lightTheme = ThemeData(

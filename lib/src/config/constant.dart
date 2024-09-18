@@ -6,7 +6,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 PackageInfo _packageInfo = GetIt.I<PackageInfo>();
 
 class Constant {
-  static String appName = 'BackTix';
+  static String appName = 'Othix';
   static String appLabel = _packageInfo.appName;
   static String packageName = _packageInfo.packageName;
   static String version = _packageInfo.version;
