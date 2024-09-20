@@ -1,4 +1,4 @@
-package com.othix.app
+package com.othtix.app
 
 import io.flutter.embedding.android.FlutterActivity
 
