@@ -1,8 +1,8 @@
-import 'package:backtix_app/src/blocs/user/update_password/update_password_cubit.dart';
-import 'package:backtix_app/src/config/routes/route_names.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/user/update_password/update_password_cubit.dart';
+import 'package:othtix_app/src/config/routes/route_names.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';

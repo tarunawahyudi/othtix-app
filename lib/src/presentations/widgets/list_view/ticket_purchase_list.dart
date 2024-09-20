@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/blocs/tickets/my_ticket_purchases/my_ticket_purchases_bloc.dart';
-import 'package:backtix_app/src/config/routes/route_names.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_status_enum.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/tickets/my_ticket_purchases/my_ticket_purchases_bloc.dart';
+import 'package:othtix_app/src/config/routes/route_names.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_status_enum.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

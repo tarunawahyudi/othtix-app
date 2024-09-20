@@ -1,6 +1,6 @@
-import 'package:backtix_app/src/data/models/purchase/create_ticket_order_model.dart';
-import 'package:backtix_app/src/data/models/purchase/payment_method_enum.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/purchase/create_ticket_order_model.dart';
+import 'package:othtix_app/src/data/models/purchase/payment_method_enum.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
 import 'package:bloc/bloc.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

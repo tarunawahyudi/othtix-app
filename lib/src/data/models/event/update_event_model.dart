@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/data/models/event/update_event_image_model.dart';
+import 'package:othtix_app/src/data/models/event/update_event_image_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'update_event_model.freezed.dart';

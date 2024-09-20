@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/blocs/auth/auth_bloc.dart';
-import 'package:backtix_app/src/data/services/remote/auth_service.dart';
+import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
+import 'package:othtix_app/src/data/services/remote/auth_service.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 

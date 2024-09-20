@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:backtix_app/src/data/models/purchase/transaction_model.dart';
+import 'package:othtix_app/src/data/models/purchase/transaction_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:midtrans_sdk/midtrans_sdk.dart';
 import 'package:url_launcher/url_launcher.dart';

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:backtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/config/constant.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class LocalNotification {

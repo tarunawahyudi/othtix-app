@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

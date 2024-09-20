@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/blocs/events/event_detail/event_detail_cubit.dart';
-import 'package:backtix_app/src/blocs/tickets/verify_ticket/verify_ticket_cubit.dart';
-import 'package:backtix_app/src/data/models/event/event_model.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/events/event_detail/event_detail_cubit.dart';
+import 'package:othtix_app/src/blocs/tickets/verify_ticket/verify_ticket_cubit.dart';
+import 'package:othtix_app/src/data/models/event/event_model.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

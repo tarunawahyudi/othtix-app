@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/data/models/user/update_user_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
-import 'package:backtix_app/src/data/models/user/user_with_auth_model.dart';
-import 'package:backtix_app/src/data/repositories/user_repository.dart';
+import 'package:othtix_app/src/data/models/user/update_user_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/models/user/user_with_auth_model.dart';
+import 'package:othtix_app/src/data/repositories/user_repository.dart';
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

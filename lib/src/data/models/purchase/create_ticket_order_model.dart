@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/data/models/purchase/payment_method_enum.dart';
+import 'package:othtix_app/src/data/models/purchase/payment_method_enum.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'create_ticket_order_model.freezed.dart';

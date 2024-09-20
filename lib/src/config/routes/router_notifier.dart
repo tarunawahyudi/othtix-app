@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/blocs/auth/auth_bloc.dart';
+import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
 import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
 

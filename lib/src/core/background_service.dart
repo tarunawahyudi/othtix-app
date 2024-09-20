@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/data/services/background_notification_service.dart';
-import 'package:backtix_app/src/service_locator.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/data/services/background_notification_service.dart';
+import 'package:othtix_app/src/service_locator.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';

@@ -1,9 +1,9 @@
-import 'package:backtix_app/src/blocs/tickets/create_ticket_order/create_ticket_order_cubit.dart';
-import 'package:backtix_app/src/data/models/event/event_model.dart';
-import 'package:backtix_app/src/data/models/purchase/transaction_model.dart';
-import 'package:backtix_app/src/data/repositories/event_repository.dart';
-import 'package:backtix_app/src/data/repositories/ticket_repository.dart';
-import 'package:backtix_app/src/data/services/remote/payment_service.dart';
+import 'package:othtix_app/src/blocs/tickets/create_ticket_order/create_ticket_order_cubit.dart';
+import 'package:othtix_app/src/data/models/event/event_model.dart';
+import 'package:othtix_app/src/data/models/purchase/transaction_model.dart';
+import 'package:othtix_app/src/data/repositories/event_repository.dart';
+import 'package:othtix_app/src/data/repositories/ticket_repository.dart';
+import 'package:othtix_app/src/data/services/remote/payment_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

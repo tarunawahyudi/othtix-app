@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/blocs/auth/auth_bloc.dart';
-import 'package:backtix_app/src/blocs/user/update_profile/update_profile_cubit.dart';
-import 'package:backtix_app/src/config/routes/route_names.dart';
-import 'package:backtix_app/src/data/models/user/update_user_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
-import 'package:backtix_app/src/data/services/remote/location_service.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
+import 'package:othtix_app/src/blocs/user/update_profile/update_profile_cubit.dart';
+import 'package:othtix_app/src/config/routes/route_names.dart';
+import 'package:othtix_app/src/data/models/user/update_user_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/services/remote/location_service.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';

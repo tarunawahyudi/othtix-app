@@ -1,15 +1,15 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:backtix_app/src/blocs/notifications/info_notifications_cubit.dart';
-import 'package:backtix_app/src/blocs/notifications/notifications_cubit.dart';
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/core/background_service.dart';
-import 'package:backtix_app/src/core/local_notification.dart';
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
-import 'package:backtix_app/src/data/services/background_notification_service.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/notifications/info_notifications_cubit.dart';
+import 'package:othtix_app/src/blocs/notifications/notifications_cubit.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/core/background_service.dart';
+import 'package:othtix_app/src/core/local_notification.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/data/services/background_notification_service.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

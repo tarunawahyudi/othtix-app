@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/data/models/ticket/new_ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/update_ticket_model.dart';
-import 'package:backtix_app/src/data/repositories/ticket_repository.dart';
+import 'package:othtix_app/src/data/models/ticket/new_ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/update_ticket_model.dart';
+import 'package:othtix_app/src/data/repositories/ticket_repository.dart';
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

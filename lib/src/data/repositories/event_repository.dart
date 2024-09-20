@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/data/models/event/event_model.dart';
-import 'package:backtix_app/src/data/models/event/event_query.dart';
-import 'package:backtix_app/src/data/models/event/new_event_model.dart';
-import 'package:backtix_app/src/data/models/event/update_event_model.dart';
-import 'package:backtix_app/src/data/services/remote/event_service.dart';
+import 'package:othtix_app/src/data/models/event/event_model.dart';
+import 'package:othtix_app/src/data/models/event/event_query.dart';
+import 'package:othtix_app/src/data/models/event/new_event_model.dart';
+import 'package:othtix_app/src/data/models/event/update_event_model.dart';
+import 'package:othtix_app/src/data/services/remote/event_service.dart';
 import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 

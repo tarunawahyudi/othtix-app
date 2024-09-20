@@ -121,7 +121,7 @@ GOOGLE_SERVER_CLIENT_ID=xxxx.apps.googleusercontent.com
           Contoh:
       ```bash
       # linux
-      ~/ngoding/PROJECTS/backtix/backtix_app/android/app/androidkey.jks
+      ~/ngoding/PROJECTS/backtix/othtix_app/android/app/androidkey.jks
       # windows
       D:/ngoding/flutter/backtix-app/android/app/androidkey.jks
       ```
@@ -159,7 +159,7 @@ GOOGLE_SERVER_CLIENT_ID=xxxx.apps.googleusercontent.com
 
   ```gradle
   android {
-      namespace "com.example.backtix_app"
+      namespace "com.example.othtix_app"
       compileSdkVersion 34
       ndkVersion flutter.ndkVersion
       ...

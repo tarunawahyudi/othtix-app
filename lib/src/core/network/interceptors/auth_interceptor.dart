@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/blocs/auth/auth_helper.dart';
+import 'package:othtix_app/src/blocs/auth/auth_helper.dart';
 import 'package:dio/dio.dart';
 
 class AuthInterceptor extends Interceptor {

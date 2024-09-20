@@ -1,6 +1,6 @@
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_status_enum.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_status_enum.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'ticket_purchase_model.freezed.dart';

@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/presentations/pages/published_events/event_detail_page.dart';
+import 'package:othtix_app/src/presentations/pages/published_events/event_detail_page.dart';
 
 class MyEventDetailPage extends EventDetailPage {
   const MyEventDetailPage({

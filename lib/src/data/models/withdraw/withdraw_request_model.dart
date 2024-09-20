@@ -1,6 +1,6 @@
-import 'package:backtix_app/src/data/models/user/user_model.dart';
-import 'package:backtix_app/src/data/models/withdraw/withdraw_from_enum.dart';
-import 'package:backtix_app/src/data/models/withdraw/withdraw_status_enum.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/models/withdraw/withdraw_from_enum.dart';
+import 'package:othtix_app/src/data/models/withdraw/withdraw_status_enum.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'withdraw_request_model.freezed.dart';

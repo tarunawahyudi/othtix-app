@@ -1,8 +1,8 @@
 // ignore_for_file: deprecated_member_use_from_same_package
 
-import 'package:backtix_app/src/blocs/notifications/notifications_cubit.dart';
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/blocs/notifications/notifications_cubit.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
 
 class InfoNotificationsCubit extends NotificationsCubit {
   InfoNotificationsCubit(super.repository);

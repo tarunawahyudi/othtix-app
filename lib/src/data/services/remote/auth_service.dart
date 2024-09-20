@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/data/models/auth/google_auth_result.dart';
-import 'package:backtix_app/src/data/models/auth/new_auth_model.dart';
-import 'package:backtix_app/src/data/models/auth/register_user_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/models/auth/google_auth_result.dart';
+import 'package:othtix_app/src/data/models/auth/new_auth_model.dart';
+import 'package:othtix_app/src/data/models/auth/register_user_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

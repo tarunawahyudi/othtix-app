@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/data/models/auth/new_auth_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
-import 'package:backtix_app/src/data/services/remote/auth_service.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/data/models/auth/new_auth_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/services/remote/auth_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:google_sign_in/google_sign_in.dart';

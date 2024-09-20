@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/config/routes/route_names.dart';
-import 'package:backtix_app/src/data/models/notification/notification_entity_type_enum.dart';
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
-import 'package:backtix_app/src/data/models/notification/notification_type_enum.dart';
+import 'package:othtix_app/src/config/routes/route_names.dart';
+import 'package:othtix_app/src/data/models/notification/notification_entity_type_enum.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/data/models/notification/notification_type_enum.dart';
 import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
 

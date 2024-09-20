@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/data/models/event/event_image_model.dart';
-import 'package:backtix_app/src/data/models/event/event_status_enum.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/models/event/event_image_model.dart';
+import 'package:othtix_app/src/data/models/event/event_status_enum.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'event_model.freezed.dart';

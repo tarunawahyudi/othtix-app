@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:backtix_app/src/blocs/tickets/upsert_ticket/upsert_ticket_cubit.dart';
-import 'package:backtix_app/src/data/models/ticket/new_ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/update_ticket_model.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/tickets/upsert_ticket/upsert_ticket_cubit.dart';
+import 'package:othtix_app/src/data/models/ticket/new_ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/update_ticket_model.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';

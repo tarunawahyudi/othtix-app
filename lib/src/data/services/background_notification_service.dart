@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:backtix_app/src/config/app_theme.dart';
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/core/background_service.dart';
-import 'package:backtix_app/src/core/local_notification.dart';
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
-import 'package:backtix_app/src/data/repositories/notification_repository.dart';
+import 'package:othtix_app/src/config/app_theme.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/core/background_service.dart';
+import 'package:othtix_app/src/core/local_notification.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/data/repositories/notification_repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';

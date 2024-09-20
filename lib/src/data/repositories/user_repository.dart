@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/data/models/user/update_user_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
-import 'package:backtix_app/src/data/models/user/user_with_auth_model.dart';
-import 'package:backtix_app/src/data/services/remote/user_service.dart';
+import 'package:othtix_app/src/data/models/user/update_user_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/models/user/user_with_auth_model.dart';
+import 'package:othtix_app/src/data/services/remote/user_service.dart';
 import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 

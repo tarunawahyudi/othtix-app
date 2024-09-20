@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomeNavigationBar extends StatelessWidget {

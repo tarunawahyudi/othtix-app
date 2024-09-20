@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/blocs/events/my_events/my_events_bloc.dart';
-import 'package:backtix_app/src/data/models/event/event_query.dart';
-import 'package:backtix_app/src/data/models/event/event_status_enum.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/events/my_events/my_events_bloc.dart';
+import 'package:othtix_app/src/data/models/event/event_query.dart';
+import 'package:othtix_app/src/data/models/event/event_status_enum.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';

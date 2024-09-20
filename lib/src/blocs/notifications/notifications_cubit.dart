@@ -2,9 +2,9 @@
 
 import 'dart:async';
 
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
-import 'package:backtix_app/src/data/repositories/notification_repository.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/data/repositories/notification_repository.dart';
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:backtix_app/src/blocs/onboarding/onboarding_cubit.dart';
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/config/routes/route_names.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/blocs/onboarding/onboarding_cubit.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/config/routes/route_names.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';

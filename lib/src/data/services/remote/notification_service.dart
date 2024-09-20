@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

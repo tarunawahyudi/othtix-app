@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/blocs/notifications/notifications_cubit.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/blocs/notifications/notifications_cubit.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

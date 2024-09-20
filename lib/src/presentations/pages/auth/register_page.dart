@@ -1,13 +1,13 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/blocs/auth/auth_bloc.dart';
-import 'package:backtix_app/src/blocs/register/register_bloc.dart';
-import 'package:backtix_app/src/config/routes/route_names.dart';
-import 'package:backtix_app/src/data/models/auth/register_user_model.dart';
-import 'package:backtix_app/src/data/services/remote/google_auth_service.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
+import 'package:othtix_app/src/blocs/register/register_bloc.dart';
+import 'package:othtix_app/src/config/routes/route_names.dart';
+import 'package:othtix_app/src/data/models/auth/register_user_model.dart';
+import 'package:othtix_app/src/data/services/remote/google_auth_service.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

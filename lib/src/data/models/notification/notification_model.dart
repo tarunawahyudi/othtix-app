@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/data/models/notification/notification_entity_type_enum.dart';
-import 'package:backtix_app/src/data/models/notification/notification_type_enum.dart';
+import 'package:othtix_app/src/data/models/notification/notification_entity_type_enum.dart';
+import 'package:othtix_app/src/data/models/notification/notification_type_enum.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'notification_model.freezed.dart';

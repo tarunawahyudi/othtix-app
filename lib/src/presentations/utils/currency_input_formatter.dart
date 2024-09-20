@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 

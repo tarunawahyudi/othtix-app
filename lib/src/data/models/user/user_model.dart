@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/data/models/user/user_balance_model.dart';
-import 'package:backtix_app/src/data/models/user/user_group_enum.dart';
+import 'package:othtix_app/src/data/models/user/user_balance_model.dart';
+import 'package:othtix_app/src/data/models/user/user_group_enum.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'user_model.freezed.dart';

@@ -1,7 +1,7 @@
-import 'package:backtix_app/src/data/models/withdraw/fee_with_balance_model.dart';
-import 'package:backtix_app/src/data/models/withdraw/withdraw_request_model.dart';
-import 'package:backtix_app/src/data/models/withdraw/withdraw_status_enum.dart';
-import 'package:backtix_app/src/data/services/remote/balance_service.dart';
+import 'package:othtix_app/src/data/models/withdraw/fee_with_balance_model.dart';
+import 'package:othtix_app/src/data/models/withdraw/withdraw_request_model.dart';
+import 'package:othtix_app/src/data/models/withdraw/withdraw_status_enum.dart';
+import 'package:othtix_app/src/data/services/remote/balance_service.dart';
 import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 

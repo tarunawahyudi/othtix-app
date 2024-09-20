@@ -1,10 +1,10 @@
-import 'package:backtix_app/src/blocs/tickets/ticket_sales/ticket_sales_cubit.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_status_enum.dart';
-import 'package:backtix_app/src/presentations/extensions/extensions.dart';
-import 'package:backtix_app/src/presentations/utils/utils.dart';
-import 'package:backtix_app/src/presentations/widgets/widgets.dart';
+import 'package:othtix_app/src/blocs/tickets/ticket_sales/ticket_sales_cubit.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_status_enum.dart';
+import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/utils/utils.dart';
+import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

@@ -1,9 +1,9 @@
-import 'package:backtix_app/src/core/network/dio_client.dart';
-import 'package:backtix_app/src/data/models/auth/new_auth_model.dart';
-import 'package:backtix_app/src/data/models/user/user_model.dart';
-import 'package:backtix_app/src/data/repositories/user_repository.dart';
-import 'package:backtix_app/src/data/services/remote/auth_service.dart';
-import 'package:backtix_app/src/data/services/remote/google_auth_service.dart';
+import 'package:othtix_app/src/core/network/dio_client.dart';
+import 'package:othtix_app/src/data/models/auth/new_auth_model.dart';
+import 'package:othtix_app/src/data/models/user/user_model.dart';
+import 'package:othtix_app/src/data/repositories/user_repository.dart';
+import 'package:othtix_app/src/data/services/remote/auth_service.dart';
+import 'package:othtix_app/src/data/services/remote/google_auth_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';

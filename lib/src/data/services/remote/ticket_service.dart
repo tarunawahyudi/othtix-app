@@ -1,12 +1,12 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/data/models/purchase/create_ticket_order_model.dart';
-import 'package:backtix_app/src/data/models/purchase/ticket_order_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_query.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchases_by_event_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchases_by_ticket_model.dart';
+import 'package:othtix_app/src/data/models/purchase/create_ticket_order_model.dart';
+import 'package:othtix_app/src/data/models/purchase/ticket_order_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_query.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchases_by_event_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchases_by_ticket_model.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

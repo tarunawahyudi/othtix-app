@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/config/constant.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';

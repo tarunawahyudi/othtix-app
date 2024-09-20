@@ -1,9 +1,9 @@
-import 'package:backtix_app/src/blocs/auth/auth_bloc.dart';
-import 'package:backtix_app/src/blocs/onboarding/onboarding_cubit.dart';
-import 'package:backtix_app/src/blocs/theme_mode/theme_mode_cubit.dart';
-import 'package:backtix_app/src/config/app_theme.dart';
-import 'package:backtix_app/src/config/constant.dart';
-import 'package:backtix_app/src/config/routes/app_route.dart';
+import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
+import 'package:othtix_app/src/blocs/onboarding/onboarding_cubit.dart';
+import 'package:othtix_app/src/blocs/theme_mode/theme_mode_cubit.dart';
+import 'package:othtix_app/src/config/app_theme.dart';
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/config/routes/app_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';

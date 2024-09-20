@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/data/models/event/event_model.dart';
-import 'package:backtix_app/src/data/models/ticket/ticket_purchase_model.dart';
+import 'package:othtix_app/src/data/models/event/event_model.dart';
+import 'package:othtix_app/src/data/models/ticket/ticket_purchase_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'ticket_purchases_by_event_model.freezed.dart';

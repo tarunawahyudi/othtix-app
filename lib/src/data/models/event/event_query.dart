@@ -1,4 +1,4 @@
-import 'package:backtix_app/src/data/models/event/event_status_enum.dart';
+import 'package:othtix_app/src/data/models/event/event_status_enum.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'event_query.freezed.dart';

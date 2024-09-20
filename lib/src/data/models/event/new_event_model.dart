@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:backtix_app/src/data/models/ticket/new_ticket_model.dart';
+import 'package:othtix_app/src/data/models/ticket/new_ticket_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'new_event_model.freezed.dart';

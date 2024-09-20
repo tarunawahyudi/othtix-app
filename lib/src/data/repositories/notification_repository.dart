@@ -1,5 +1,5 @@
-import 'package:backtix_app/src/data/models/notification/notification_model.dart';
-import 'package:backtix_app/src/data/services/remote/notification_service.dart';
+import 'package:othtix_app/src/data/models/notification/notification_model.dart';
+import 'package:othtix_app/src/data/services/remote/notification_service.dart';
 import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 
