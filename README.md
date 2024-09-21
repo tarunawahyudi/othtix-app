@@ -1,4 +1,4 @@
-# Othix App
+# Othtix App
 
 <img src="https://raw.githubusercontent.com/ikhsan3adi/backtix/main/assets/banner.png">
 

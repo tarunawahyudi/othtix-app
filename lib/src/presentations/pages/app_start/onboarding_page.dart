@@ -4,7 +4,6 @@ import 'package:othtix_app/src/presentations/extensions/extensions.dart';
 import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -29,11 +28,11 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   final List<Widget> _pages = [
     const _OnboardingHero(
-      svgAsset: 'assets/images/onboarding-01.svg',
+      imgAsset: 'assets/images/onboarding-step-1.png',
       text: 'Create & share your event',
     ),
     const _OnboardingHero(
-      svgAsset: 'assets/images/onboarding-02.svg',
+      imgAsset: 'assets/images/onboarding-step-2.png',
       text: 'Find events and buy tickets. No hassle',
     ),
   ];
@@ -168,11 +167,11 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
 class _OnboardingHero extends StatelessWidget {
   const _OnboardingHero({
-    required this.svgAsset,
+    required this.imgAsset,
     required this.text,
   });
 
-  final String svgAsset;
+  final String imgAsset;
   final String text;
 
   @override
@@ -185,7 +184,7 @@ class _OnboardingHero extends StatelessWidget {
           flex: 4,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            child: SvgPicture.asset(svgAsset),
+            child: Image.asset(imgAsset),
           ),
         ),
         Expanded(
