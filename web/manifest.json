@@ -1,11 +1,11 @@
 {
-    "name": "BackTix | Event & Ticketing app",
-    "short_name": "BackTix",
+    "name": "OthTix | Event & Ticketing app",
+    "short_name": "OthTix",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#00BCD4",
-    "theme_color": "#00BCD4",
-    "description": "A new Flutter project.",
+    "background_color": "#ff8144",
+    "theme_color": "#ff8144",
+    "description": "Event & Ticketing App",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
