@@ -236,7 +236,7 @@ class _Buttons extends StatelessWidget {
           ? await getExternalStorageDirectory() ??
               await getApplicationDocumentsDirectory()
           : await getApplicationDocumentsDirectory();
-      final path = '${dir.path}${Platform.pathSeparator}BackTix';
+      final path = '${dir.path}${Platform.pathSeparator}OthTix';
 
       if (!Directory(path).existsSync()) {
         Directory(path).createSync(recursive: true);
