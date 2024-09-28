@@ -1,6 +1,6 @@
 # Othtix App
 
-<img src="https://raw.githubusercontent.com/ikhsan3adi/backtix/main/assets/banner.png">
+<img src="https://raw.githubusercontent.com/tarunawahyudi/othtix/refs/heads/main/assets/banner.png">
 
 <a href="./mobile-app.md">
   <img alt="Translation" src="https://img.shields.io/badge/Bahasa_Indonesia-blue?style=for-the-badge&logo=googletranslate&logoColor=blue&labelColor=white">
