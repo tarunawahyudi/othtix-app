@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/gestures.dart';
 import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
 import 'package:othtix_app/src/blocs/register/register_bloc.dart';
 import 'package:othtix_app/src/config/routes/route_names.dart';
@@ -117,6 +118,9 @@ class _RegisterUserFormState extends State<_RegisterUserForm> {
 
   final _debouncer = Debouncer();
 
+  bool _isTocChecked = false;
+  bool _isPrivacyChecked = false;
+
   @override
   void dispose() {
     _emailController.dispose();
@@ -139,6 +143,75 @@ class _RegisterUserFormState extends State<_RegisterUserForm> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ...formWidgets,
+          const SizedBox(height: 8),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Checkbox(
+                    value: _isTocChecked,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        _isTocChecked = value ?? false;
+                      });
+                    },
+                    materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  RichText(
+                    text: TextSpan(
+                      text: 'I accept the ',
+                      style: DefaultTextStyle.of(context).style,
+                      children: [
+                        TextSpan(
+                          text: 'Terms and Conditions',
+                          style: TextStyle(
+                            color: context.colorScheme.primary,
+                          ),
+                          recognizer: TapGestureRecognizer()
+                            ..onTap = () {
+
+                            },
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Checkbox(
+                    value: _isPrivacyChecked,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        _isPrivacyChecked = value ?? false;
+                      });
+                    },
+                    materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  RichText(
+                    text: TextSpan(
+                      text: 'I accept the ',
+                      style: DefaultTextStyle.of(context).style,
+                      children: [
+                        TextSpan(
+                          text: 'Privacy Policy',
+                          style: TextStyle(
+                            color: context.colorScheme.primary,
+                          ),
+                          recognizer: TapGestureRecognizer()
+                            ..onTap = () {
+                            },
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
           const SizedBox(height: 16),
           BlocBuilder<RegisterBloc, RegisterState>(
             builder: (context, state) {
@@ -151,6 +224,12 @@ class _RegisterUserFormState extends State<_RegisterUserForm> {
                       loading: null,
                       success: null,
                       orElse: () => () {
+                        if (!_isTocChecked || !_isPrivacyChecked) {
+                          context.showSimpleTextSnackBar(
+                            'You must accept both the Terms and Conditions and Privacy Policy to continue.',
+                          );
+                          return;
+                        }
                         if (_formKey.currentState?.validate() ?? false) {
                           final user = RegisterUserModel(
                             email: _emailController.value.text,
