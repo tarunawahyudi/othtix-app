@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/gestures.dart';
 import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
 import 'package:othtix_app/src/blocs/login/login_bloc.dart';
 import 'package:othtix_app/src/config/routes/route_names.dart';
@@ -100,13 +101,13 @@ class _LoginForm extends StatefulWidget {
 
 class _LoginFormState extends State<_LoginForm> {
   final _formKey = GlobalKey<FormState>();
-
   final _usernameController = TextEditingController();
   final _passwordController = TextEditingController();
-
   final _obscurePassword = ValueNotifier(true);
-
   final _debouncer = Debouncer();
+
+  bool _isTocChecked = false;
+  bool _isPrivacyChecked = false;
 
   @override
   void initState() {
@@ -133,6 +134,76 @@ class _LoginFormState extends State<_LoginForm> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ...formWidgets,
+          const SizedBox(height: 8),
+
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Checkbox(
+                    value: _isTocChecked,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        _isTocChecked = value ?? false;
+                      });
+                    },
+                    materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  RichText(
+                    text: TextSpan(
+                      text: 'I accept the ',
+                      style: DefaultTextStyle.of(context).style,
+                      children: [
+                        TextSpan(
+                          text: 'Terms and Conditions',
+                          style: TextStyle(
+                            color: context.colorScheme.primary,
+                          ),
+                          recognizer: TapGestureRecognizer()
+                            ..onTap = () {
+                            },
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Checkbox(
+                    value: _isPrivacyChecked,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        _isPrivacyChecked = value ?? false;
+                      });
+                    },
+                    materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  RichText(
+                    text: TextSpan(
+                      text: 'I accept the ',
+                      style: DefaultTextStyle.of(context).style,
+                      children: [
+                        TextSpan(
+                          text: 'Privacy Policy',
+                          style: TextStyle(
+                            color: context.colorScheme.primary,
+                          ),
+                          recognizer: TapGestureRecognizer()
+                            ..onTap = () {
+
+                            },
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
           const SizedBox(height: 16),
           BlocBuilder<LoginBloc, LoginState>(
             builder: (context, state) {
@@ -145,6 +216,12 @@ class _LoginFormState extends State<_LoginForm> {
                       loading: null,
                       success: null,
                       orElse: () => () {
+                        if (!_isTocChecked || !_isPrivacyChecked) {
+                          context.showSimpleTextSnackBar(
+                            'You must accept both the Terms and Conditions and Privacy Policy to continue.',
+                          );
+                          return;
+                        }
                         if (_formKey.currentState?.validate() ?? false) {
                           bloc.add(
                             LoginEvent.usernamelogin(
@@ -199,7 +276,7 @@ class _LoginFormState extends State<_LoginForm> {
       debounce: true,
       debouncer: _debouncer,
       validator: Validatorless.multiple([
-        Validatorless.between(3, 16, 'Must have between 3 and 16 character'),
+        Validatorless.between(3, 16, 'Must have between 3 and 16 characters'),
         Validatorless.required('Username required'),
       ]),
       decoration: const InputDecoration(
@@ -217,7 +294,7 @@ class _LoginFormState extends State<_LoginForm> {
           debounce: true,
           debouncer: _debouncer,
           validator: Validatorless.multiple([
-            Validatorless.between(8, 64, 'Must have minimum 8 character'),
+            Validatorless.between(8, 64, 'Must have a minimum of 8 characters'),
             Validatorless.required('Password required'),
           ]),
           decoration: InputDecoration(
@@ -239,3 +316,4 @@ class _LoginFormState extends State<_LoginForm> {
     ),
   ];
 }
+
