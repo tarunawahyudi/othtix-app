@@ -30,4 +30,7 @@ class Constant {
   static Duration mediumInterval = const Duration(seconds: 60);
   static Duration longInterval = const Duration(seconds: 300);
   static int notificationCountLimit = 5;
+
+  static String privacyAndPolicyUrl = 'https://othman.media/kebijakan-privasi';
+  static String termAndConditionUrl = 'https://othman.media/syarat-dan-ketentuan';
 }

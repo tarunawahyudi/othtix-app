@@ -3,10 +3,12 @@ import 'dart:io';
 import 'package:flutter/gestures.dart';
 import 'package:othtix_app/src/blocs/auth/auth_bloc.dart';
 import 'package:othtix_app/src/blocs/register/register_bloc.dart';
+import 'package:othtix_app/src/config/constant.dart';
 import 'package:othtix_app/src/config/routes/route_names.dart';
 import 'package:othtix_app/src/data/models/auth/register_user_model.dart';
 import 'package:othtix_app/src/data/services/remote/google_auth_service.dart';
 import 'package:othtix_app/src/presentations/extensions/extensions.dart';
+import 'package:othtix_app/src/presentations/pages/webview_page.dart';
 import 'package:othtix_app/src/presentations/utils/utils.dart';
 import 'package:othtix_app/src/presentations/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -171,7 +173,11 @@ class _RegisterUserFormState extends State<_RegisterUserForm> {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
-
+                              WebViewPage.showAsBottomSheet(
+                                context,
+                                url: Constant.termAndConditionUrl,
+                                title: 'Term and Condition',
+                              );
                             },
                         ),
                       ],
@@ -203,6 +209,11 @@ class _RegisterUserFormState extends State<_RegisterUserForm> {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
+                              WebViewPage.showAsBottomSheet(
+                                  context,
+                                  url: Constant.privacyAndPolicyUrl,
+                                  title: 'Privacy Policy',
+                              );
                             },
                         ),
                       ],

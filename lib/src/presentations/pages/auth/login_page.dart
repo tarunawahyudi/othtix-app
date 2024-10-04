@@ -15,6 +15,9 @@ import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
 import 'package:validatorless/validatorless.dart';
 
+import 'package:othtix_app/src/config/constant.dart';
+import 'package:othtix_app/src/presentations/pages/webview_page.dart';
+
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key, this.initialUsername});
 
@@ -163,6 +166,11 @@ class _LoginFormState extends State<_LoginForm> {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
+                              WebViewPage.showAsBottomSheet(
+                                context,
+                                url: Constant.termAndConditionUrl,
+                                title: 'Term and Condition',
+                              );
                             },
                         ),
                       ],
@@ -194,7 +202,11 @@ class _LoginFormState extends State<_LoginForm> {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
-
+                              WebViewPage.showAsBottomSheet(
+                                context,
+                                url: Constant.privacyAndPolicyUrl,
+                                title: 'Privacy Policy',
+                              );
                             },
                         ),
                       ],
