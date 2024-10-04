@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -43,7 +44,10 @@ class WebViewPage extends StatelessWidget {
         title: Text(title ?? 'WebView', overflow: TextOverflow.ellipsis),
       ),
       body: _supported
-          ? InAppWebView(initialUrlRequest: URLRequest(url: WebUri(url)))
+          ? InAppWebView(
+          gestureRecognizers: Set()..add(Factory<VerticalDragGestureRecognizer>(() => VerticalDragGestureRecognizer())),
+          initialUrlRequest: URLRequest(url: WebUri(url))
+      )
           : Center(
               child: Text(
                 'WebView not supported on ${Platform.operatingSystem}\nUrl: $url',
